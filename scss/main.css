@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Comic+Neue:ital,wght@0,700;1,400&family=Grape+Nuts&family=Inter:wght@100;300;400;700&family=Mali&family=Ms+Madi&family=Pacifico&family=Vazirmatn:wght@100;200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif; }
+
+section {
+  min-height: 100vh;
+  padding: 0 120px;
+  background-color: antiquewhite; }
+
+.section1 header {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; }
+  .section1 header .logo span {
+    color: #1da1f2; }
+  .section1 header .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px; }
+    .section1 header .nav-right nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 35px; }
+      .section1 header .nav-right nav ul li {
+        list-style-type: none; }
+    .section1 header .nav-right .toggle {
+      display: none; }
+.section1 .content {
+  margin: 15px 0;
+  display: flex;
+  align-items: top;
+  justify-content: top;
+  gap: 10px; }
+  .section1 .content .content-text {
+    line-height: 2.5rem; }
+    .section1 .content .content-text div {
+      display: flex; }
+      .section1 .content .content-text div div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 10px; }
+    .section1 .content .content-text .images img:not(img:first-child) {
+      margin-left: -20px; }
+    .section1 .content .content-text .sign {
+      width: fit-content;
+      margin: 30px 0; }
+    .section1 .content .content-text span {
+      color: #1da1f2; }
+  .section1 .content .content-image {
+    max-width: 40%;
+    height: 100%; }
+    .section1 .content .content-image .tablet {
+      display: none; }
+    .section1 .content .content-image img {
+      height: 100%;
+      width: 100%; }
+.section1 .sign {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 0;
+  background-color: #1da1f2;
+  color: white;
+  padding: 12px;
+  border-radius: 5px; }
+
+.section2 {
+  padding: 35px 150px; }
+  .section2 h1 {
+    width: 50%;
+    margin-bottom: 20px; }
+  .section2 .role {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    flex-wrap: wrap; }
+    .section2 .role .role1 {
+      width: 300px;
+      padding: 15px;
+      transition: 0.5s all;
+      border: 1px solid #eee; }
+      .section2 .role .role1 i {
+        color: #1da1f2;
+        margin: 15px 0; }
+      .section2 .role .role1:hover {
+        border: 2px solid #d3caca;
+        transform: scale(1.1); }
+
+.section3 {
+  background-color: #d7f5f5; }
+  .section3 h1 {
+    padding: 25px 0; }
+  .section3 .tweets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2%; }
+    .section3 .tweets .tweet1 {
+      width: 35%;
+      line-height: 1.4rem;
+      padding: 15px;
+      background: white;
+      transition: 0.5s all;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      gap: 10px;
+      flex-direction: column; }
+      .section3 .tweets .tweet1:hover {
+        z-index: 1000000000000;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        transform: scale(1.2); }
+      .section3 .tweets .tweet1 .profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px; }
+        .section3 .tweets .tweet1 .profile .image {
+          display: flex;
+          gap: 10px; }
+          .section3 .tweets .tweet1 .profile .image p {
+            opacity: 0.7; }
+          .section3 .tweets .tweet1 .profile .image div {
+            display: flex;
+            flex-direction: column; }
+      .section3 .tweets .tweet1 .reaction {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 60px; }
+        .section3 .tweets .tweet1 .reaction p {
+          opacity: 0.7; }
+        .section3 .tweets .tweet1 .reaction .love {
+          display: inherit; }
+
+.section4 {
+  height: fit-content;
+  background-color: white;
+  text-align: center; }
+  .section4 h1 {
+    margin: 20px 0; }
+  .section4 .card {
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 410px;
+    height: 350px;
+    border: 2px solid #ffc15a;
+    background-color: #fbf8f3;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 12px;
+    flex-direction: column; }
+    .section4 .card p {
+      opacity: 0.7; }
+    .section4 .card hr {
+      width: 100%;
+      opacity: 0.3; }
+    .section4 .card div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px; }
+      .section4 .card div span {
+        font-size: 50px;
+        font-weight: bold; }
+    .section4 .card .sign {
+      background-color: #1da1f2;
+      padding: 15px;
+      color: white;
+      width: 100%;
+      border-radius: 5px; }
+
+.footer {
+  background-color: #d7f5f5;
+  padding: 15px 120px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px; }
+  .footer div {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px; }
+  .footer span {
+    color: #1da1f2; }
+
+@media (min-width: 550px) and (max-width: 868px) {
+  section, .footer, .section2 {
+    padding: 25px; }
+
+  .section1 .content {
+    flex-direction: column-reverse; }
+    .section1 .content .content-image .desktop {
+      display: none; }
+    .section1 .content .content-image .tablet {
+      display: block;
+      min-height: 100%;
+      min-width: 250%; }
+
+  .section2 .role .role1 {
+    width: fit-content;
+    padding: 25px; }
+
+  .section3 .tweets {
+    margin: 25px;
+    flex-wrap: wrap; }
+    .section3 .tweets .tweet1 {
+      width: 100%; } }
+@media (max-width: 550px) {
+  section, .footer {
+    padding: 15px; }
+
+  .section1 header {
+    justify-content: space-between; }
+    .section1 header .toggle {
+      display: block; }
+    .section1 header nav {
+      display: none; }
+    .section1 header .sign {
+      display: none; }
+  .section1 .content {
+    flex-direction: column-reverse; }
+    .section1 .content .content-image .desktop {
+      display: none; }
+    .section1 .content .content-image .tablet {
+      display: block;
+      min-height: 100%;
+      min-width: 250%; }
+
+  .section1 .content .content-text {
+    font-size: 13px; }
+    .section1 .content .content-text .sign {
+      width: 65%;
+      margin: 30px 0; }
+
+  h1 {
+    min-width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px; }
+
+  .section2 {
+    padding: 15px; }
+    .section2 .role .role1 {
+      min-width: 100%;
+      padding: 25px; }
+
+  .section3 .tweets {
+    margin: 25px;
+    flex-wrap: wrap; }
+    .section3 .tweets .tweet1 {
+      width: 100%; }
+
+  .section1 header .nav-right .toggle {
+    display: block; } }
+
+/*# sourceMappingURL=main.css.map */
